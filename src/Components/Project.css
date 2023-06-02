@@ -38,3 +38,26 @@
 .project-item a:hover {
     text-decoration: underline;
 }
+
+.projects-section .project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .projects-section .project a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .projects-section .project a:hover {
+    background-color: #0056b3;
+  }
+  

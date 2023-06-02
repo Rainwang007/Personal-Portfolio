@@ -42,12 +42,13 @@ function Projects() {
     <div className="content projects-section">
       <h1>My Projects</h1>
       {repos.map(repo => (
-        <div key={repo.id}>
-          <h2>{repo.name}</h2>
-          <p>{repo.description}</p>
-          <a href={repo.html_url}>Repo link</a>
-          {repo.liveSiteLink && <a href={repo.liveSiteLink}>Live site link</a>}
-        </div>
+      <div key={repo.id} className="project">
+      <h2>{repo.name}</h2>
+      <p>{repo.description}</p>
+      <a href={repo.html_url}>Repo link</a>
+      {repo.liveSiteLink && <a href={repo.liveSiteLink}>Live site link</a>}
+    </div>
+    
       ))}
     </div>
   );
