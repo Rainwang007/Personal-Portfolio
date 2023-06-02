@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import nusLogo from './images/nus-logo.jpg'; 
 import gaLogo from './images/ga-logo.png'; 
 import './About.css';
-import workExperience from './Experience.js'
+import WorkExperience from './WorkExperience';
+import ExperienceData from './ExperienceData';
 
 
 function About() {
@@ -34,25 +35,13 @@ function About() {
         <p>Software Engineering Immersive, General Assembly   Mar – Sep 2023</p>
       </div>
       
+
       <h1>Work Experience</h1>
-      <div>
-        {workExperience.map((experience, index) => (
-          <div className="work-experience" id={`work-experience-${index}`} key={index}>
-            <h4 onClick={() => handleJobTitleClick(index)}>{experience.company}</h4>
-            {index === selectedJobIndex && (
-              <>
-                <p>{experience.role}</p>
-                <p>{experience.period}</p>
-                <ul>
-                  {experience.achievements.map((achievement, i) => (
-                    <li key={i}>{achievement}</li>
-                  ))}
-                </ul>
-              </>
-            )}
-          </div>
-        ))}
-      </div>
+  <WorkExperience 
+    workExperience={ExperienceData} 
+    onJobTitleClick={handleJobTitleClick} 
+    selectedJobIndex={selectedJobIndex}
+  />
     </div>
   
   

@@ -1,4 +1,6 @@
-const workExperience = [
+
+
+const ExperienceData = [
     {
       title: 'Sales Engineer @ Yokowo Singapore Pte. Ltd.',
       company: 'Yokowo Singapore Pte. Ltd.',
@@ -67,5 +69,5 @@ const workExperience = [
     }
   ]
 
-  export default workExperience
+  export default ExperienceData
   

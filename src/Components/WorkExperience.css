@@ -1,0 +1,13 @@
+.work-experience h4 {
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .work-experience h4:hover {
+    font-size: 1.1em;
+    text-decoration: underline;
+  }
+  
