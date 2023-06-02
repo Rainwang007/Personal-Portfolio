@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import About from './Components/About';
 import Projects from './Components/Projects';
@@ -10,21 +10,18 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/">
-          <About />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
-      <Footer />
+      <div className="app content">
+        <Header />
+        <Routes>
+          <Route path="/" element={<About name="Rain Wang Jiantao" jobTitle="Full Stack Web Developer" specialization="Javascript, React, Redux, Node.js" location="Singapore" yearsOfExperience="7" />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
+
 
 export default App;
