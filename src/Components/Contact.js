@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 
-
 function Contact() {
   const [messageSent, setMessageSent] = useState(false);
 
@@ -20,12 +19,12 @@ function Contact() {
   }
 
   return (
-    <div className="content">
+    <div className="contact-section">
       <h1>Contact Me</h1>
       <p>
         Interested in working with me or have a question? Reach out to me.
       </p>
-      <form onSubmit={sendEmail}>
+      <form className="contact-form" onSubmit={sendEmail}>
         <label htmlFor="name">Name:</label><br/>
         <input type="text" id="name" name="name"/><br/>
         <label htmlFor="email">Email:</label><br/>
@@ -36,7 +35,7 @@ function Contact() {
       </form>
       {messageSent && (
         <div>
-          <p>Thank you for your interest! I will get back to you as soon as possible^_^</p>
+          <h3>Thank you for your interest! I will get back to you as soon as possible^_^</h3>
         </div>
       )}
     </div>
