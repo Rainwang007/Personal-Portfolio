@@ -1,36 +1,34 @@
-# Project Title
+# Personal Portfolio Website
 
-This is an example of a project title.
+## Introduction
+This personal portfolio project showcases the professional and technical skills of Rain Wang. The website features a modern UI with various sections, including "About", "Experience", "Projects", and "Contact", which provide visitors with a comprehensive view of Rain's profile and achievements. It's a fully responsive site, ensuring a great user experience across different devices.
 
-## Description
+## Technologies Used
+The website is built using React, a popular JavaScript library for building interactive user interfaces. React's component-based architecture is leveraged to create reusable UI components and manage the site's overall structure. CSS is used for styling and providing a clean and modern look to the website.
 
-This section contains a description of the project. The syntax for writing paragraphs in Markdown is just normal text separated by one or more lines.
+To make the site dynamic and interactive, we've used the following APIs and services:
 
-## Installation
+- GitHub API: To fetch real-time data about Rain's public repositories for the "Projects" section.
+- EmailJS API: To handle contact form submissions and send an email directly from the browser without a backend server.
 
-The installation section contains instructions for how to install the project. Code blocks can be created by surrounding the code with three backticks (```). For example:
+## Most Difficult Part
+The most challenging part of the project was managing state and ensuring that the data fetched from APIs is correctly integrated and displayed on the website. Especially with GitHub's API, where we had to fetch not only repository data but also the README content, and then process it to extract live site links.
 
+## Favourite Part
+The favorite part of developing this project was designing the user interface and building a smooth and responsive site. Watching the site come alive with animations and transitions was a particularly rewarding experience.
 
-## Usage
+## Future Plans
+In the future, the following features could be added to enhance the site:
 
-The usage section contains instructions for how to use the project. You can use bulleted lists with `-` or `*`:
+- Blog Section: A dedicated area where Rain can share knowledge and thoughts about technology, coding, and related topics.
+- Skills Section: A visual representation of Rain's skills in various technologies.
+- Testimonials: Incorporate feedback or reviews from colleagues or clients.
 
-- Example of a usage instruction.
-- Another usage instruction.
+## Live Site
+The live site can be accessed at: [https://rainwangjiantao-portfolio.vercel.app/][Live Site](https://rainwangjiantao-portfolio.vercel.app/)
 
-Or numbered lists using numbers and a period:
-
-1. Example of a usage instruction.
-2. Another usage instruction.
-
-## Contributing
-
-If you want others to contribute to your project, you can include instructions in this section.
+## Repository
+The code for this website is open-sourced and can be found at: [https://github.com/Rainwang007/Personal-Portfolio](https://github.com/Rainwang007/Personal-Portfolio)
 
 ## License
-
-The license section usually contains information about the open source license the project uses. It's often a link to the license file in the project repository.
-
-## Contact
-
-Your contact info (e.g., email, twitter, etc).
+This project is licensed under the terms of the MIT license.
