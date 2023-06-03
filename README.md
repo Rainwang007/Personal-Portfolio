@@ -1,21 +1,28 @@
-# Personal Portfolio Website
+# Rain's Personal Portfolio
 
 ## Introduction
 This personal portfolio project showcases the professional and technical skills of Rain Wang. The website features a modern UI with various sections, including "About", "Experience", "Projects", and "Contact", which provide visitors with a comprehensive view of Rain's profile and achievements. It's a fully responsive site, ensuring a great user experience across different devices.
 
 ## Technologies Used
-The website is built using React, a popular JavaScript library for building interactive user interfaces. React's component-based architecture is leveraged to create reusable UI components and manage the site's overall structure. CSS is used for styling and providing a clean and modern look to the website.
+This project was built with:
+
+- React: The main library used for building the user interface.
+- CSS: Used for styling the components.
+- Axios: Used for making HTTP requests to the API.
+- React Router: Used for routing and navigation within the application.
 
 To make the site dynamic and interactive, we've used the following APIs and services:
 
 - GitHub API: To fetch real-time data about Rain's public repositories for the "Projects" section.
 - EmailJS API: To handle contact form submissions and send an email directly from the browser without a backend server.
 
-## Most Difficult Part
-The most challenging part of the project was managing state and ensuring that the data fetched from APIs is correctly integrated and displayed on the website. Especially with GitHub's API, where we had to fetch not only repository data but also the README content, and then process it to extract live site links.
+## User Stories
+Users of this portfolio should be able to:
 
-## Favourite Part
-The favorite part of developing this project was designing the user interface and building a smooth and responsive site. Watching the site come alive with animations and transitions was a particularly rewarding experience.
+- View Rain's work experiences, skills, and personal projects.
+- Navigate to different sections of the portfolio using the navigation menu.
+- Understand Rain's expertise in software development.
+- Click on a project name to be taken directly to the live site of the project or its repository on GitHub.
 
 ## Future Plans
 In the future, the following features could be added to enhance the site:
