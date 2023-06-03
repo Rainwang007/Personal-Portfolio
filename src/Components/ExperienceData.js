@@ -9,7 +9,7 @@ const ExperienceData = [
       achievements: [
         'Spearheaded sales initiatives for high-end semiconductor testing equipment, driving business growth in a competitive market.',
         'Delivered exemplary remote and on-site technical support to enhance clients production processes, contributing to their operational excellence.',
-        'Managed key accounts, including industry giants such as Intel, AMD, and Infineon, strengthening relationships and securing repeat business.',
+        'Managed key accounts, including industry giants such as Company I, Company A, strengthening relationships and securing repeat business.',
         'Coordinated design and production for new products, effectively aligning client needs with our technical capabilities.',
         'Streamlined internal resources for optimal utilization, ensuring efficiency in all project executions.',
         'Successfully penetrated new client markets, particularly AMD and Infineon, expanding our client base and increasing revenue opportunities.',
