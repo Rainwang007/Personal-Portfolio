@@ -16,13 +16,6 @@ To make the site dynamic and interactive, we've used the following APIs and serv
 - GitHub API: To fetch real-time data about Rain's public repositories for the "Projects" section.
 - EmailJS API: To handle contact form submissions and send an email directly from the browser without a backend server.
 
-## User Stories
-Users of this portfolio should be able to:
-
-- View Rain's work experiences, skills, and personal projects.
-- Navigate to different sections of the portfolio using the navigation menu.
-- Understand Rain's expertise in software development.
-- Click on a project name to be taken directly to the live site of the project or its repository on GitHub.
 
 ## Future Plans
 In the future, the following features could be added to enhance the site:
