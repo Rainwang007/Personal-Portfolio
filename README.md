@@ -11,11 +11,6 @@ To make the site dynamic and interactive, we've used the following APIs and serv
 - GitHub API: To fetch real-time data about Rain's public repositories for the "Projects" section.
 - EmailJS API: To handle contact form submissions and send an email directly from the browser without a backend server.
 
-## Most Difficult Part
-The most challenging part of the project was managing state and ensuring that the data fetched from APIs is correctly integrated and displayed on the website. Especially with GitHub's API, where we had to fetch not only repository data but also the README content, and then process it to extract live site links.
-
-## Favourite Part
-The favorite part of developing this project was designing the user interface and building a smooth and responsive site. Watching the site come alive with animations and transitions was a particularly rewarding experience.
 
 ## Future Plans
 In the future, the following features could be added to enhance the site:
